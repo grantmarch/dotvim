@@ -6,8 +6,6 @@ execute pathogen#infect()
 " Colors
 if has('gui_running')
     colorscheme monokai
-else
-    colorscheme bar
 endif
 
 " Fonts
