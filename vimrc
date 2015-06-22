@@ -35,6 +35,9 @@ set noswapfile
 set nobackup
 set nowritebackup
 
+" Character encoding see http://vim.wikia.com/wiki/Working_with_Unicode
+set encoding=utf-8
+
 " Other stuff
 syntax on
 filetype plugin indent on
