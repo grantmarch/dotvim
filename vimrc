@@ -6,12 +6,11 @@ execute pathogen#infect()
 " Colors
 if has('gui_running')
     colorscheme monokai
-else
-    colorscheme bar
 endif
 
 " Fonts
-set guifont=Lucida_Console:h10:cANSI
+"set guifont=Lucida_Console:h10:cANSI
+set guifont=Ubuntu\ Mono\ 10 " on linux
 
 " NERDTree automatically open on startup if no files are specified
 autocmd StdinReadPre * let s:std_in=1
